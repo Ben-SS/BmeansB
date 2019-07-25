@@ -1,0 +1,734 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: BmeansB\n"
+"POT-Creation-Date: 2018-02-23 13:13+0000\n"
+"PO-Revision-Date: 2017-05-17 20:21+0100\n"
+"Last-Translator: Ben Shewring <b.shewring@gmail.com>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;esc_attr__;esc_attr_e;esc_html__;esc_html_e;"
+"esc_html_x\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugins\n"
+
+#: 404.php:7 archive.php:8 policy.php:14 portfolio.php:41 search.php:6
+#: single.php:8
+msgid "vuelve al blog"
+msgstr ""
+
+#: 404.php:15
+msgid "404 - Contenido no encontrado"
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"No se encuentra el contenido solicitado, puede hacer una nueva búsqueda aquí:"
+msgstr ""
+
+#: archive.php:29 format.php:25 post-formats/format.php:31 search.php:25
+msgid "Posted"
+msgstr ""
+
+#: archive.php:33 format.php:29 search.php:29
+msgid "by"
+msgstr ""
+
+#: archive.php:59 policy.php:68 single.php:40
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: archive.php:62 policy.php:71 single.php:43
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: archive.php:65
+msgid "This is the error message in the archive.php template."
+msgstr ""
+
+#: comments.php:44
+msgid "&larr; Previous Comments"
+msgstr ""
+
+#: comments.php:45
+msgid "More Comments &rarr;"
+msgstr ""
+
+#: comments.php:50
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:58
+msgid "¿Qué opinas?"
+msgstr ""
+
+#: comments.php:64
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:66
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:73
+msgid "Nombre"
+msgstr ""
+
+#: comments.php:77
+msgid "Correo electrónico"
+msgstr ""
+
+#: contactar.php:25
+msgid "Follow us"
+msgstr ""
+
+#: content-blog.php:14
+msgid ""
+"¡Bienvenidos al blog! Aquí podrán mantenerse al día de mis publicaciones. El "
+"tema de mis posts puede variar pero por lo general serán temas de la "
+"actualidad, experiencias o incluso información sobre mis compañeros. No se "
+"olvide de compartir cualquier post que le guste."
+msgstr ""
+
+#: content-blog.php:29 content-nav.php:16 footer.php:13 single.php:58
+msgid "Blog"
+msgstr ""
+
+#: content-blog.php:97
+msgid "No hay posts"
+msgstr ""
+
+#: content-blog.php:100
+msgid "Intente buscar un artículo arriba."
+msgstr ""
+
+#: content-blog.php:103
+msgid "Error posts"
+msgstr ""
+
+#: content-intro.php:14
+msgid "Impulse su presencia online"
+msgstr ""
+
+#: content-intro.php:24
+msgid "¿Quién Soy?"
+msgstr ""
+
+#: content-intro.php:26
+msgid "Me llamo Ben Shewring y soy:"
+msgstr ""
+
+#: content-intro.php:30 content-intro.php:31
+msgid "Diseñador Web"
+msgstr ""
+
+#: content-intro.php:34 content-intro.php:35
+msgid "Diseñador Gráfico"
+msgstr ""
+
+#: content-intro.php:38
+msgid "Google"
+msgstr ""
+
+#: content-intro.php:39
+msgid "Trabajo con herramientas Google"
+msgstr ""
+
+#: content-intro.php:43
+msgid "Si quiere saber más sobre mi, pinche aquí:"
+msgstr ""
+
+#: content-intro.php:45 content-nav.php:19 footer.php:15 functions.php:17
+msgid "portafolio"
+msgstr ""
+
+#: content-intro.php:45
+msgid "PORTAFOLIO"
+msgstr ""
+
+#: content-intro.php:49
+msgid "¿Qué Ofrezco?"
+msgstr ""
+
+#: content-intro.php:51
+msgid "Lo siguiente:"
+msgstr ""
+
+#: content-intro.php:54
+msgid ""
+"Si busca mejorar o crear una imágen profesional online, le puedo ayudar. "
+"Pinche aquí para ver como:"
+msgstr ""
+
+#: content-intro.php:56
+msgid "SERVICIO"
+msgstr ""
+
+#: content-intro.php:61
+msgid "BLOG"
+msgstr ""
+
+#: content-intro.php:63
+msgid "Para saber de mis últimas experiencias y opiniones"
+msgstr ""
+
+#: content-nav.php:10 footer.php:9
+msgid "Inicio"
+msgstr ""
+
+#: content-nav.php:13 footer.php:11
+msgid "Servicio"
+msgstr ""
+
+#: content-nav.php:19 footer.php:15
+msgid "Portafolio"
+msgstr ""
+
+#: content-service.php:11
+msgid "Cómo le puedo ayudar:"
+msgstr ""
+
+#: content-service.php:22
+msgid "La transición digital"
+msgstr ""
+
+#: content-service.php:23
+#, php-format
+msgid ""
+"Aunque la publicidad física, la atención directa al cliente y la "
+"comunicación boca a boca aún forman pilares fundamentales para cualquier "
+"campaña de marketing en la actualidad, invertir exclusivamente en dichas "
+"canales conlleva grandes inconvenientes. Hoy en día es esencial reconocer, "
+"entender y contar con la realidad tecnológica en la que vivimos. Si todavía "
+"le parece un terreno incierto, es hora de buscar ayuda; le puedo "
+"proporcionar %1$s buena presencia en redes sociales, una imagen corporativa "
+"digital, servicios web profesionales, además de abrirles nuevas canales de "
+"marketing online %2$s para lograr que su crecimiento sea lo más efectivo "
+"posible."
+msgstr ""
+
+#: content-service.php:25 content-service.php:39 content-service.php:54
+#: content-service.php:67
+msgid "Pedir info"
+msgstr ""
+
+#: content-service.php:36 content-service.php:104
+msgid "Imagen corporativa"
+msgstr ""
+
+#: content-service.php:37
+msgid ""
+"Una buena imagen profesional parte de tanto la seriedad como la "
+"homogeneidad. Para muchos profesionales, su imagen corporativa se ve "
+"perjudicada debido a que no se actualiza junto con el crecimiento del "
+"negocio. En el caso de empresas con más de diez años de antigüedad, la "
+"“revolución digital” podría haber supuesto un golpe importante para su "
+"imagen, pues la conversión de medios tangibles (tarjetas e impresiones) en "
+"medios digitales (logotipos, cabeceras, banners, páginas web, o perfiles en "
+"redes sociales), puede parecer una tarea muy imponente e incierta. Sea cual "
+"sea su situación, me ofrezco para encargarme de la creación o actualización "
+"de su imagen digital de acuerdo con sus necesidades."
+msgstr ""
+
+#: content-service.php:51 content-service.php:123
+msgid "Centralización de información"
+msgstr ""
+
+#: content-service.php:52
+msgid ""
+"Estar al mando de su contenido online es esencial hoy en día, primero porque "
+"nos permite alcanzar al máximo número de personas posibles cuando queremos "
+"difundir información o darnos de conocer. Por otro lado, nos permite captar "
+"opiniones, identificar carencias y conocer mejor nuestros clientes tantos "
+"existentes como potenciales. El problema llega cuando intentamos abarcar la "
+"gestión de nuestras cuentas (email, social etc) y aplicaciones de forma "
+"independiente.  Al crear un perfil centralizado, podemos vincular nuestras "
+"cuentas online y servicios web, pudiendo acceder, publicar y recuperar la "
+"información que queramos fácilmente y en tiempo real. Si requiere asistencia "
+"para agilizar la centralización de estos procesos no dude en contactar "
+"conmigo."
+msgstr ""
+
+#: content-service.php:64 content-service.php:142
+msgid "Herramientas Google"
+msgstr ""
+
+#: content-service.php:65
+msgid ""
+"Todo negocio sobreentiende la necesidad de realizar actividades "
+"publicitarias. Tradicionalmente campañas de publicidad se han realizado a "
+"través de la publicación de medios físicos y la interacción por vías "
+"tradicionales de comunicación como pueden ser teléfono, cara a cara y "
+"posiblemente correo electrónico. Aunque estas canales siguen siendo "
+"relevantes para muchos, cualquier negocio que tenga presencia online debe "
+"considerar la incorporación de las herramientas de marketing y análisis "
+"proporcionado por Google. Si le interesa la posibilidad de poder realizar "
+"campañas de publicidad online a medida y/o analizar cuáles son las "
+"secuencias de eventos que constituyen las acciones más exitosas de parte de "
+"sus clientes, les puedo ayudar tanto en su configuración como mantenimiento."
+msgstr ""
+
+#: content-service.php:84 content-service.php:103 content-service.php:122
+#: content-service.php:141
+msgid ""
+"Si tiene configurado el correo electrónico en su equipo, pulse en el boton "
+"abajo para contactar conmigo:"
+msgstr ""
+
+#: content-service.php:85
+msgid "Transición Digital"
+msgstr ""
+
+#: content-service.php:85 content-service.php:104 content-service.php:123
+#: content-service.php:142
+msgid "Enviar correo"
+msgstr ""
+
+#: content-service.php:86
+#, php-format
+msgid ""
+"En el caso contrario, por favor envíeme un email utilizando la siguiente "
+"información e indicando como le puedo ayudar: %1$s %2$s %3$s Dirección: %4$s "
+"%5$s admin@bmeansb.com %6$s %7$s %8$s Asunto: %9$s %10$s Transición digital "
+"%11$s %12$s"
+msgstr ""
+
+#: content-service.php:105
+#, php-format
+msgid ""
+"En el caso contrario, por favor envíeme un email utilizando la siguiente "
+"información e indicando como le puedo ayudar: %1$s %2$s %3$s Dirección: %4$s "
+"%5$s admin@bmeansb.com %6$s %7$s %8$s Asunto: %9$s %10$s Imagen corporativa "
+"%11$s %12$s"
+msgstr ""
+
+#: content-service.php:124
+#, php-format
+msgid ""
+"En el caso contrario, por favor envíeme un email utilizando la siguiente "
+"información e indicando como le puedo ayudar: %1$s %2$s %3$s Dirección: %4$s "
+"%5$s admin@bmeansb.com %6$s %7$s %8$s Asunto: %9$s %10$s Centralización de "
+"información %11$s %12$s"
+msgstr ""
+
+#: content-service.php:143
+#, php-format
+msgid ""
+"En el caso contrario, por favor envíeme un email utilizando la siguiente "
+"información e indicando como le puedo ayudar: %1$s %2$s %3$s Dirección: %4$s "
+"%5$s admin@bmeansb.com %6$s %7$s %8$s Asunto: %9$s %10$s Herramientas Google "
+"%11$s %12$s"
+msgstr ""
+
+#: footer.php:7
+msgid "Navigación"
+msgstr ""
+
+#: footer.php:21
+msgid "\"BmeansB: Informa, Ofrece y Entretiene.\""
+msgstr ""
+
+#: footer.php:24
+msgid "politica-privacidad"
+msgstr ""
+
+#: footer.php:24
+msgid "aviso legal"
+msgstr ""
+
+#: format.php:54
+msgid "Pages:"
+msgstr ""
+
+#: format.php:64 search.php:43
+msgid "filed under"
+msgstr ""
+
+#: format.php:66 post-formats/format.php:40
+msgid "Tags:"
+msgstr ""
+
+#: functions.php:38
+msgid "Leer más"
+msgstr ""
+
+#: functions.php:84
+msgid "Search Sidebar"
+msgstr ""
+
+#: functions.php:97
+msgid "Recent Sidebar"
+msgstr ""
+
+#: functions.php:102 single.php:55
+msgid "Entradas Recientes"
+msgstr ""
+
+#: functions.php:103 single.php:56
+msgid "Aproveche para ver qué más está pasando:"
+msgstr ""
+
+#: functions.php:119
+msgid "Busca un artículo por nombre:"
+msgstr ""
+
+#: functions.php:121
+msgid "Buscar"
+msgstr ""
+
+#: policy.php:74 single.php:46
+msgid "This is the error message in the single.php template."
+msgstr ""
+
+#: portfolio.php:25 portfolio.php:70
+msgid "SOBRE MÍ"
+msgstr ""
+
+#: portfolio.php:26 portfolio.php:270 portfolio.php:277
+msgid "LUGARES"
+msgstr ""
+
+#: portfolio.php:27 portfolio.php:368 portfolio.php:375
+msgid "EJEMPLOS"
+msgstr ""
+
+#: portfolio.php:28 portfolio.php:483 portfolio.php:490
+msgid "METAS"
+msgstr ""
+
+#: portfolio.php:29 portfolio.php:575 portfolio.php:582
+msgid "CURRÍCULO"
+msgstr ""
+
+#: portfolio.php:46
+msgid ""
+"\"Forjando mi camino en las nuevas tecnologías y el desarrollo web adaptativo"
+"\""
+msgstr ""
+
+#: portfolio.php:51
+msgid "Mándame un correo:"
+msgstr ""
+
+#: portfolio.php:77
+msgid "Permitame apenas presentarme:"
+msgstr ""
+
+#: portfolio.php:95
+msgid "¿De dónde soy?"
+msgstr ""
+
+#: portfolio.php:96
+msgid ""
+"Me crie en una ciudad que se llama Bath en el Reino Unido, su ubicación se "
+"puede observar en el mapa a la derecha (arriba en el caso de estar "
+"utilizando un dispositivo móvil). Es una ciudad famosa por sus balnearios "
+"romanos, architectura espectacular y su belleza natural."
+msgstr ""
+
+#: portfolio.php:98
+msgid "¿Y ahora?"
+msgstr ""
+
+#: portfolio.php:100
+#, php-format
+msgid ""
+"Tras licenciarme en %1$s International Business y Marketing%2$s me trasladé "
+"a la isla de Tenerife, dónde paso a paso, voy abriendo camino dentro de los "
+"campos de %3$s E-commerce, Diseño Gráfico y Responsive Web Development%4$s"
+msgstr ""
+
+#: portfolio.php:102
+msgid "Más datos sobre mí"
+msgstr ""
+
+#: portfolio.php:104
+#, php-format
+msgid ""
+"Soy %1$s bilingüe %2$s en inglés/español y me apasionan las nuevas "
+"tecnologías, particularmente la parte que la creatividad desempeña en su "
+"desarrollo. Aunque actualmente me promuevo como %3$s front-end developer "
+"freelance y diseñador gráfico%4$s quiero crecer y poco a poco embarcar en "
+"proyectos de mayor escala. Algunos ejemplos de los proyectos en los que he "
+"trabajado se exponen más adelante en este portafolio. Por lo general, me "
+"encantan las sutilezas del %5$s diseño moderno%6$s además de la libertad que "
+"este proporciona para un diseñador %7$s sin miedo a la creatividad%8$s "
+"Personalmente, procuro siempre dejar una pincelada de mi identidad en los "
+"trabajos que realizo, aplicando mis conocimientos de %9$s diseño gráfico o "
+"el desarrollo audiovisual%10$s donde haga falta. En mi opinión %11$s la "
+"innovación es la clave del éxito%12$s pues ya no es suficiente simplemente "
+"“agarrarse al saber hacer” y es algo por lo que me esfuerzo al diario."
+msgstr ""
+
+#: portfolio.php:112
+msgid "Si me tuviera que describir en sólo tres palabras..."
+msgstr ""
+
+#: portfolio.php:115
+msgid "Para mis amigos:"
+msgstr ""
+
+#: portfolio.php:117
+#, php-format
+msgid ""
+"%1$s Fiable, %2$s %3$s Divertido %4$s y a veces %5$s refrescantemente "
+"espontáneo. %6$s"
+msgstr ""
+
+#: portfolio.php:121
+msgid "Para mis compañeros:"
+msgstr ""
+
+#: portfolio.php:123
+#, php-format
+msgid ""
+"%1$s Adaptable, %2$s %3$s Comprometido %4$s y dispuesto a probar cosas %5$s "
+"nuevas. %6$s"
+msgstr ""
+
+#: portfolio.php:128
+msgid "El saber hacer técnico..."
+msgstr ""
+
+#: portfolio.php:135
+msgid "Mi caja de instrumentos Web:"
+msgstr ""
+
+#: portfolio.php:198
+msgid "Mi caja de instrumentos diseño gráfico:"
+msgstr ""
+
+#: portfolio.php:241
+msgid "Otras habilidades..."
+msgstr ""
+
+#: portfolio.php:247
+msgid "También sé hacer:"
+msgstr ""
+
+#: portfolio.php:250
+#, php-format
+msgid "%1$s SEO %2$s Conocimiento de SEO y Google Analytics."
+msgstr ""
+
+#: portfolio.php:253
+#, php-format
+msgid "%1$s Enseñar %2$s 5+ años enseñando informática e inglés."
+msgstr ""
+
+#: portfolio.php:256
+#, php-format
+msgid "%1$s Idiomas %2$s Bilingüe en inglés/español."
+msgstr ""
+
+#: portfolio.php:259
+#, php-format
+msgid "%1$s Innovar %2$s Dinamizador de la innovación."
+msgstr ""
+
+#: portfolio.php:284
+msgid ""
+"Las siguientes compañías e instituciones han sido claves en mi desarrollo "
+"profesional hasta la fecha:"
+msgstr ""
+
+#: portfolio.php:288
+msgid "Empleo..."
+msgstr ""
+
+#: portfolio.php:289
+msgid "Para quién he trabajado:"
+msgstr ""
+
+#: portfolio.php:297
+msgid "Online Marketing Junior"
+msgstr ""
+
+#: portfolio.php:303
+msgid "Profesor bilingüe y desarrollador de contenidos mediáticos"
+msgstr ""
+
+#: portfolio.php:309
+msgid "Ingeniero de datos para HICSE, Hitachi"
+msgstr ""
+
+#: portfolio.php:314
+msgid "Desarrollador y Webmaster, Academia MAI"
+msgstr ""
+
+#: portfolio.php:322
+msgid "Estudios..."
+msgstr ""
+
+#: portfolio.php:323
+msgid "Dónde he estudiado:"
+msgstr ""
+
+#: portfolio.php:329 portfolio.php:333
+msgid "BA International Business"
+msgstr ""
+
+#: portfolio.php:337
+msgid "Dinamizadores De La Innovación"
+msgstr ""
+
+#: portfolio.php:341
+msgid "Responsive Website Development"
+msgstr ""
+
+#: portfolio.php:349
+msgid "Actualmente..."
+msgstr ""
+
+#: portfolio.php:350
+msgid "En lo que estoy trabajando ahora:"
+msgstr ""
+
+#: portfolio.php:384
+msgid ""
+"Lo siguiente son ejemplos de mi trabajo. Los programas utilizados están "
+"indicados en cada sección:"
+msgstr ""
+
+#: portfolio.php:416
+msgid "imagenes-web"
+msgstr ""
+
+#: portfolio.php:438
+msgid "imagenes-diseño"
+msgstr ""
+
+#: portfolio.php:462 portfolio.php:660
+msgid "Composición 2012"
+msgstr ""
+
+#: portfolio.php:468 portfolio.php:682
+msgid "Composición 2013"
+msgstr ""
+
+#: portfolio.php:497
+msgid ""
+"Lo que muestro a continuación representa mis objetivos a medio plazo en tres "
+"niveles muy importantes: Profesional, Personal y Familia y amigos:"
+msgstr ""
+
+#: portfolio.php:506
+msgid "Profesional..."
+msgstr ""
+
+#: portfolio.php:510
+msgid "Emp"
+msgstr ""
+
+#: portfolio.php:513
+msgid "Por un lado:"
+msgstr ""
+
+#: portfolio.php:516
+msgid ""
+"Mi primer objetivo es de formar una parte importante de un equipo "
+"profesional, dedicado al sector de servicios online y/o desarrollo de "
+"contenidos digitales."
+msgstr ""
+
+#: portfolio.php:519
+msgid "Por otro:"
+msgstr ""
+
+#: portfolio.php:522
+msgid ""
+"Alternativamente, me gustaría verme embarcar en un proyecto independiente "
+"dentro de la industria."
+msgstr ""
+
+#: portfolio.php:532
+msgid "Personal..."
+msgstr ""
+
+#: portfolio.php:536
+msgid "Ocio"
+msgstr ""
+
+#: portfolio.php:539
+msgid "La emoción de nuevas experiencias:"
+msgstr ""
+
+#: portfolio.php:542
+#, php-format
+msgid ""
+"La estabilidad personal y profesional me permitirá comodidad a la hora de "
+"invertir en lo que más me motiva: deportes de aventura, vida sana y lo más "
+"importante; %1$s viajar %2$s y conocer lugares increíbles en excelente "
+"compañía."
+msgstr ""
+
+#: portfolio.php:552
+msgid "Familia y amigos..."
+msgstr ""
+
+#: portfolio.php:556
+msgid "Familia"
+msgstr ""
+
+#: portfolio.php:559
+msgid "Buscar el equilibrio:"
+msgstr ""
+
+#: portfolio.php:562
+#, php-format
+msgid ""
+"En mi caso, mis seres queridos se encuentran repartidos por todo el mundo. "
+"En muchas ocasiones, estar presente para ellos se ha visto complicado al no "
+"disponer de las ventajas que te puede aportar una profesión estable. Con "
+"esto en mente, mi objetivo inmediato es de lograr dicha estabilidad "
+"profesional y asegurar un %1$s equilibrio %2$s necesario entre mis "
+"responsabilidades profesionales y personales."
+msgstr ""
+
+#: portfolio.php:589
+msgid "Pinche en las imágenes para descargar mi currículo en inglés o español:"
+msgstr ""
+
+#: portfolio.php:612
+msgid "Vuelve arriba"
+msgstr ""
+
+#: portfolio.php:667
+msgid "Composición Orla 2012"
+msgstr ""
+
+#: portfolio.php:688
+msgid "Composición Orla 2013"
+msgstr ""
+
+#: search.php:14
+msgid "Search Results for:"
+msgstr ""
+
+#: search.php:36
+msgid "Read more &raquo;"
+msgstr ""
+
+#: search.php:46
+msgid "Tags"
+msgstr ""
+
+#: search.php:62
+msgid "No hay resultados"
+msgstr ""
+
+#: search.php:63
+msgid "Error de búsqueda"
+msgstr ""
+
+#: search.php:66
+msgid "Vuelve a intentar"
+msgstr ""

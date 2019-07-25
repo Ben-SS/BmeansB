@@ -1,0 +1,1364 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BmeansB\n"
+"POT-Creation-Date: 2019-07-09 22:20+0100\n"
+"PO-Revision-Date: 2019-07-09 22:21+0100\n"
+"Last-Translator: Ben Shewring <b.shewring@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;esc_attr__;esc_attr_e;esc_html__;esc_html_e;"
+"esc_html_x\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugins\n"
+
+#: 404.php:7 archive.php:8 policy.php:14 portfolio.php:41 search.php:6
+#: single.php:8
+msgid "vuelve al blog"
+msgstr "return to blog"
+
+#: 404.php:15
+msgid "404 - Contenido no encontrado"
+msgstr "404 - Content not found"
+
+#: 404.php:21
+msgid ""
+"No se encuentra el contenido solicitado, puede hacer una nueva búsqueda aquí:"
+msgstr "Content not found, please try a new search:"
+
+#: archive.php:29 format.php:25 post-formats/format.php:31 search.php:25
+msgid "Posted"
+msgstr ""
+
+#: archive.php:33 format.php:29 search.php:29
+msgid "by"
+msgstr ""
+
+#: archive.php:59 policy.php:68 single.php:40
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: archive.php:62 policy.php:71 single.php:43
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: archive.php:65
+msgid "This is the error message in the archive.php template."
+msgstr ""
+
+#: comments.php:44
+msgid "&larr; Previous Comments"
+msgstr ""
+
+#: comments.php:45
+msgid "More Comments &rarr;"
+msgstr ""
+
+#: comments.php:50
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:58
+msgid "¿Qué opinas?"
+msgstr "What do you think?"
+
+#: comments.php:64
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:66
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:73
+msgid "Nombre"
+msgstr "Name"
+
+#: comments.php:77
+msgid "Correo electrónico"
+msgstr "Email"
+
+#: contactar.php:25
+msgid "Follow us"
+msgstr ""
+
+#: content-blog.php:14
+msgid ""
+"¡Bienvenidos al blog! Aquí podrán mantenerse al día de mis publicaciones. El "
+"tema de mis posts puede variar pero por lo general serán temas de la "
+"actualidad, experiencias o incluso información sobre mis compañeros. No se "
+"olvide de compartir cualquier post que le guste."
+msgstr ""
+"Welcome to my blog! Here you can stay up to date with my publications. "
+"Topics can vary but they will generally be related to current affairs, "
+"experiences, or even news about colleagues. Don't forget to share anything "
+"that takes your interest."
+
+#: content-blog.php:32 content-nav.php:19 footer.php:15 single.php:58
+msgid "Blog"
+msgstr "Blog"
+
+#: content-blog.php:104
+msgid "No hay posts"
+msgstr "No posts"
+
+#: content-blog.php:107
+msgid "Intente buscar un artículo arriba."
+msgstr "Try searching for an article above."
+
+#: content-blog.php:110
+msgid "Error posts"
+msgstr "Posts error"
+
+#: content-ejemplos.php:11
+msgid "Mi trabajo:"
+msgstr "My Work:"
+
+#: content-ejemplos.php:16
+msgid ""
+"Para obtener información más detallada sobre mí, por favor diríjase al "
+"enlace <strong>Portafolio</strong> que se encuentra en la barra superior.</"
+"br></br>Los diseños que se ven expuestos en esta sección corresponden a "
+"proyectos publicados, proyectos terminados sin publicar y luego conceptos de "
+"diseño disponibles para nuevos clientes. Soy un desarrollador <strong>full-"
+"stack</strong> lo cuál significa que trabajo con multiples plataformas para "
+"entregar un servicio completo desde el servidor hasta la portada principal "
+"del sitio web.</br></br>Todos mis diseños están <strong>adaptados a móviles "
+"y tablets</strong>, listos para <strong>integrar con redes sociales</strong> "
+"y <strong>optimizados para motores de búsqueda (SEO)</strong>.</br></br>En "
+"el caso de interesarle algún diseño o concepto, por favor contacte conmigo "
+"al siguiente correo electrónico: <strong><a href=\"mailto:admin@bmeansb.com"
+"\">admin@bmeansb.com</a></strong>"
+msgstr ""
+"If you require more detailed information about me, please follow the link to "
+"my <strong>Portfolio</strong>, which can be found in the bar above.</br></"
+"br>The designs displayed in this section correspond to projects that are "
+"published, awaiting publication and also a project concept currently "
+"available for new customers. I am a <strong>full-stack</strong> developer, "
+"which means that i work with multiple platforms to deliver a complete "
+"service running from server side development to front end presentation. </"
+"br></br>All of my designs are <strong>responsive</strong> having been "
+"<strong>adapted to mobile devices and tablets</strong>, are ready for "
+"<strong>social network integration</strong> and are fully <strong>optimized "
+"for search engines (SEO)</strong>.</br></br>If you are interested in any of "
+"the following designs, please contact me via: <strong><a href=\"mailto:"
+"admin@bmeansb.com\">admin@bmeansb.com</a></strong>"
+
+#: content-ejemplos.php:23
+msgid "Prototipo dinámico a estrenar:"
+msgstr "Available Prototype"
+
+#: content-ejemplos.php:24
+msgid ""
+"El sitio web que muestro a continuación se trata de un prototipo para una "
+"página web profesional, moderna y dinámica, ideal para cualquier PYME "
+"buscando potenciar su presencia online."
+msgstr ""
+"The web site below is a concept design for a professional, modern and "
+"dynamic site, ideal for any SME looking to push their online presence."
+
+#: content-ejemplos.php:64
+msgid "Diseño moderno y limpio:"
+msgstr "Clean and Modern Design"
+
+#: content-ejemplos.php:65
+msgid ""
+"El sitio web que muestro a continuación se trata de una plataforma web "
+"completa en la clientes pueden comprar una suscripción y realizar un curso "
+"online con su propia cuenta de usuario.</br>El proyecto incluye trabajos de "
+"diseño web, diseño gráfico, animación y video, programación backend y "
+"administración del servidor (MySQL/PHP), sistemas online de pagos, diseño de "
+"un foro adicional, blog, traducción multilingüe.</br>Acceder al sitio: <a "
+"href=\"https://fasttyping.com\" target=\"_blank\">Aquí</a>"
+msgstr ""
+"The web site below is a complete web platform solution, in which customers "
+"can pay a subscription directly through the site and complete an online "
+"course with their own user accounts.</br>The project required the following "
+"elements: Web Design, Graphic Design, Animation and Video, Backend "
+"Development (MySQL/PHP), Secure Online Payment Systems, additional user "
+"forum, Blog, multilingual translation.</br>Access the site: <a href="
+"\"https://fasttyping.com\" target=\"_blank\">Here</a>"
+
+#: content-ejemplos.php:105
+msgid "Diseño con personalización:"
+msgstr "Customized Design:"
+
+#: content-ejemplos.php:106
+msgid ""
+"El sitio web que muestro a continuación se trata de una página web "
+"construida en Wordpress sobre un tema totalmente personalizado.</br>El "
+"proyecto incluye trabajos de diseño web, diseño gráfico, animación y video, "
+"creación de temas (child themes), administración de eventos, blog, "
+"traducción multilingüe."
+msgstr ""
+"The web site below is a completely personalized site, developed from a bare "
+"bones child theme in Wordpress.</br>The project required the following: Web "
+"Design, Graphic Design, Animation and Video, Child Theme Creation "
+"(Worpdress), Event Administration, Blog, multilingual translation."
+
+#: content-ejemplos.php:140
+msgid "Diseño corporativo:"
+msgstr "Corporate Design:"
+
+#: content-ejemplos.php:141
+msgid ""
+"El sitio web que muestro a continuación se trata de una página web "
+"corporativa para proporcionar información básica sobre la empresa.</br>El "
+"proyecto incluye trabajos de diseño web, diseño gráfico, animación y video, "
+"creación de temas (child themes), blog, traducción multilingüe.</br>Acceder "
+"al sitio: <a href=\"http://academia-mae.es\" target=\"_blank\">Aquí</a>"
+msgstr ""
+"The web site below was developed asa a corporate site in order to provide "
+"basic information about the company.</br>The project required the following: "
+"Web Design, Graphic Design, Animation and Video, Child Theme Creation "
+"(Worpdress), Blog, multilingual translation.</br>Access the site: <a href="
+"\"http://academia-mae.es\" target=\"_blank\">Here</a>"
+
+#: content-ejemplos.php:180
+msgid "Diseño corporativo/Semi tienda online:"
+msgstr "Corporate Design/Semi Online Store:"
+
+#: content-ejemplos.php:181
+msgid ""
+"El sitio web que muestro a continuación se trata de una página web "
+"corporativa muy personalizada, creada para dar a conocer sus productos sin "
+"llegar a ser tienda online completa.</br>El proyecto incluye trabajos de "
+"diseño web, diseño gráfico, animación y video, creación de temas (child "
+"themes), blog, traducción multilingüe.</br>Acceder al sitio: <a href="
+"\"http://granscooter.es\" target=\"_blank\">Aquí</a>"
+msgstr ""
+"The web site below is a highly personalized professional site, created to "
+"provide information about both the company and available in store products, "
+"without yet becoming a fully operational online store.</br>The project "
+"required the following: Web Design, Graphic Design, Animation and Video, "
+"Child Theme Creation (Worpdress), Blog, multilingual translation.</br>Access "
+"the site: <a href=\"http://granscooter.es\" target=\"_blank\">Here</a>"
+
+#: content-intro.php:14
+msgid "Impulse su presencia online"
+msgstr "Impulse your online presence"
+
+#: content-intro.php:24
+msgid "¿Quién Soy?"
+msgstr "Who I am"
+
+#: content-intro.php:26
+msgid "Me llamo Ben Shewring y soy:"
+msgstr "My name is Ben Shewring:"
+
+#: content-intro.php:30 content-intro.php:31
+msgid "Diseñador Web"
+msgstr "Web Designer"
+
+#: content-intro.php:34 content-intro.php:35
+msgid "Diseñador Gráfico"
+msgstr "Graphic Designer"
+
+#: content-intro.php:38
+msgid "Google"
+msgstr "Google"
+
+#: content-intro.php:39
+msgid "Trabajo con herramientas Google"
+msgstr "I work with Google tools"
+
+#: content-intro.php:43
+msgid "Si quiere saber más sobre mi, pinche aquí:"
+msgstr "If you would like to know more about me, click here:"
+
+#: content-intro.php:45 content-nav.php:22 footer.php:17 functions.php:22
+msgid "portafolio"
+msgstr "portfolio"
+
+#: content-intro.php:45
+msgid "PORTAFOLIO"
+msgstr "PORTFOLIO"
+
+#: content-intro.php:49
+msgid "¿Qué Ofrezco?"
+msgstr "What I offer"
+
+#: content-intro.php:51
+msgid "Lo siguiente:"
+msgstr "The following:"
+
+#: content-intro.php:54
+msgid ""
+"Si busca mejorar o crear una imágen profesional online, le puedo ayudar. "
+"Pinche aquí para ver como:"
+msgstr ""
+"If you are looking to improve or create a professional online image, I can "
+"help. Click here to see how:"
+
+#: content-intro.php:56
+msgid "SERVICIO"
+msgstr "SERVICE"
+
+#: content-intro.php:61
+msgid "BLOG"
+msgstr "BLOG"
+
+#: content-intro.php:63
+msgid "Para saber de mis últimas experiencias y opiniones"
+msgstr "Learn about my latest experiences and opinions"
+
+#: content-nav.php:10 footer.php:9
+msgid "Inicio"
+msgstr "Home"
+
+#: content-nav.php:13 footer.php:11
+msgid "Servicio"
+msgstr "Service"
+
+#: content-nav.php:16 footer.php:13
+msgid "Ejemplos"
+msgstr "Examples"
+
+#: content-nav.php:22 footer.php:17
+msgid "Portafolio"
+msgstr "Portfolio"
+
+#: content-service.php:11
+msgid "Cómo le puedo ayudar:"
+msgstr "How I can help:"
+
+#: content-service.php:22
+msgid "La transición digital"
+msgstr "The digital transition"
+
+#: content-service.php:23
+#, php-format
+msgid ""
+"Aunque la publicidad física, la atención directa al cliente y la "
+"comunicación boca a boca aún forman pilares fundamentales para cualquier "
+"campaña de marketing en la actualidad, invertir exclusivamente en dichas "
+"canales conlleva grandes inconvenientes. Hoy en día es esencial reconocer, "
+"entender y contar con la realidad tecnológica en la que vivimos. Si todavía "
+"le parece un terreno incierto, es hora de buscar ayuda; le puedo "
+"proporcionar %1$s buena presencia en redes sociales, una imagen corporativa "
+"digital, servicios web profesionales, además de abrirles nuevas canales de "
+"marketing online %2$s para lograr que su crecimiento sea lo más efectivo "
+"posible."
+msgstr ""
+"Although tangible publicity and direct communication still form fundamental "
+"pillars within any marketing campaign, investing money exclusively in these "
+"channels can carry with it considerable risks. Today it is essential to "
+"recognize, understand and embrace the technological reality in which we "
+"live. If this still feels like uncertain terrain, it's time to look for "
+"help; I can provide %1$s strong presence on social networks, a professional "
+"digital image, professional web services and access to new online marketing "
+"channels %2$s in order to ensure that your growth or transition is a "
+"successful one."
+
+#: content-service.php:25 content-service.php:39 content-service.php:54
+#: content-service.php:67
+msgid "Pedir info"
+msgstr "Request info"
+
+#: content-service.php:36 content-service.php:104
+msgid "Imagen corporativa"
+msgstr "Corporate image"
+
+#: content-service.php:37
+msgid ""
+"Una buena imagen profesional parte de tanto la seriedad como la "
+"homogeneidad. Para muchos profesionales, su imagen corporativa se ve "
+"perjudicada debido a que no se actualiza junto con el crecimiento del "
+"negocio. En el caso de empresas con más de diez años de antigüedad, la "
+"“revolución digital” podría haber supuesto un golpe importante para su "
+"imagen, pues la conversión de medios tangibles (tarjetas e impresiones) en "
+"medios digitales (logotipos, cabeceras, banners, páginas web, o perfiles en "
+"redes sociales), puede parecer una tarea muy imponente e incierta. Sea cual "
+"sea su situación, me ofrezco para encargarme de la creación o actualización "
+"de su imagen digital de acuerdo con sus necesidades."
+msgstr ""
+"A strong corporate image is product of both careful work and homogeneity. "
+"For many professionals, their corporate image suffers as a result of not "
+"evolving with the company over time. In the case of businesses with more "
+"than ten years of antiquity, the \"digital revolution\" could have delivered "
+"an important blow to their image. The conversion of tangible media (cards "
+"and prints) into digital media (logos, headers, banners, web content), can "
+"seem both daunting and uncertain. Whatever your situation, I can take charge "
+"of the process for you, creating or updating of your digital image to cover "
+"your needs."
+
+#: content-service.php:51 content-service.php:123
+msgid "Centralización de información"
+msgstr "Centralization of information"
+
+#: content-service.php:52
+msgid ""
+"Estar al mando de su contenido online es esencial hoy en día, primero porque "
+"nos permite alcanzar al máximo número de personas posibles cuando queremos "
+"difundir información o darnos de conocer. Por otro lado, nos permite captar "
+"opiniones, identificar carencias y conocer mejor nuestros clientes tantos "
+"existentes como potenciales. El problema llega cuando intentamos abarcar la "
+"gestión de nuestras cuentas (email, social etc) y aplicaciones de forma "
+"independiente.  Al crear un perfil centralizado, podemos vincular nuestras "
+"cuentas online y servicios web, pudiendo acceder, publicar y recuperar la "
+"información que queramos fácilmente y en tiempo real. Si requiere asistencia "
+"para agilizar la centralización de estos procesos no dude en contactar "
+"conmigo."
+msgstr ""
+"Being in control of your online content today is essential, firstly because "
+"it allows us to maximize our target audience when transmitting information "
+"or presenting ourselves. Secondly, it allows us to analyse public opinion, "
+"identify our weaknesses and generally get to know our customers or potential "
+"customers better. The problem arises when we try to manage our accounts "
+"(email, social etc) and applications separately. By creating a centralized "
+"profile, we can link all of our accounts and online web services together, "
+"allowing us to access, publish and recover information easily and in real-"
+"time. If you require assistance in the centralization of such processes, "
+"please do not hesitate to contact me."
+
+#: content-service.php:64 content-service.php:142
+msgid "Herramientas Google"
+msgstr "Google Tools"
+
+#: content-service.php:65
+msgid ""
+"Todo negocio sobreentiende la necesidad de realizar actividades "
+"publicitarias. Tradicionalmente campañas de publicidad se han realizado a "
+"través de la publicación de medios físicos y la interacción por vías "
+"tradicionales de comunicación como pueden ser teléfono, cara a cara y "
+"posiblemente correo electrónico. Aunque estas canales siguen siendo "
+"relevantes para muchos, cualquier negocio que tenga presencia online debe "
+"considerar la incorporación de las herramientas de marketing y análisis "
+"proporcionado por Google. Si le interesa la posibilidad de poder realizar "
+"campañas de publicidad online a medida y/o analizar cuáles son las "
+"secuencias de eventos que constituyen las acciones más exitosas de parte de "
+"sus clientes, les puedo ayudar tanto en su configuración como mantenimiento."
+msgstr ""
+"Every business is aware of the importance of publicity. Traditionally, "
+"campaigns were carried out based on the distribution of tangible media along "
+"with communication via traditional channels such as direct contact, "
+"telephone or email. Although these channels are still relevant, any business "
+"that has online presence should be aware of the marketing and analysis tools "
+"offered by Google. If the idea of carrying out tailored online marketing "
+"campaigns and/or analysing the processes carried out by your customers that "
+"culminate in successful actions or purchases sounds interesting to you , I "
+"can help you configure and manage these tools."
+
+#: content-service.php:84 content-service.php:103 content-service.php:122
+#: content-service.php:141
+msgid ""
+"Si tiene configurado el correo electrónico en su equipo, pulse en el boton "
+"abajo para contactar conmigo:"
+msgstr ""
+"If you have your local email client configured, click on the button below to "
+"contact me:"
+
+#: content-service.php:85
+msgid "Transición Digital"
+msgstr "Digital Transition"
+
+#: content-service.php:85 content-service.php:104 content-service.php:123
+#: content-service.php:142
+msgid "Enviar correo"
+msgstr "Send email"
+
+#: content-service.php:86
+#, php-format
+msgid ""
+"En el caso contrario, por favor envíeme un email utilizando la siguiente "
+"información e indicando como le puedo ayudar: %1$s %2$s %3$s Dirección: %4$s "
+"%5$s admin@bmeansb.com %6$s %7$s %8$s Asunto: %9$s %10$s Transición digital "
+"%11$s %12$s"
+msgstr ""
+"If not, please email me using the following information, outlining how I can "
+"help you: %1$s %2$s %3$s Address: %4$s %5$s admin@bmeansb.com %6$s %7$s %8$s "
+"Subject: %9$s %10$s Digital Transition %11$s %12$s"
+
+#: content-service.php:105
+#, php-format
+msgid ""
+"En el caso contrario, por favor envíeme un email utilizando la siguiente "
+"información e indicando como le puedo ayudar: %1$s %2$s %3$s Dirección: %4$s "
+"%5$s admin@bmeansb.com %6$s %7$s %8$s Asunto: %9$s %10$s Imagen corporativa "
+"%11$s %12$s"
+msgstr ""
+"If not, please email me using the following information, outlining how I can "
+"help you: %1$s %2$s %3$s Address: %4$s %5$s admin@bmeansb.com %6$s %7$s %8$s "
+"Subject: %9$s %10$s Corporate Image %11$s %12$s"
+
+#: content-service.php:124
+#, php-format
+msgid ""
+"En el caso contrario, por favor envíeme un email utilizando la siguiente "
+"información e indicando como le puedo ayudar: %1$s %2$s %3$s Dirección: %4$s "
+"%5$s admin@bmeansb.com %6$s %7$s %8$s Asunto: %9$s %10$s Centralización de "
+"información %11$s %12$s"
+msgstr ""
+"If not, please email me using the following information, outlining how I can "
+"help you: %1$s %2$s %3$s Address: %4$s %5$s admin@bmeansb.com %6$s %7$s %8$s "
+"Subject: %9$s %10$s Centralization of Information %11$s %12$s"
+
+#: content-service.php:143
+#, php-format
+msgid ""
+"En el caso contrario, por favor envíeme un email utilizando la siguiente "
+"información e indicando como le puedo ayudar: %1$s %2$s %3$s Dirección: %4$s "
+"%5$s admin@bmeansb.com %6$s %7$s %8$s Asunto: %9$s %10$s Herramientas Google "
+"%11$s %12$s"
+msgstr ""
+"If not, please email me using the following information, outlining how I can "
+"help you: %1$s %2$s %3$s Address: %4$s %5$s admin@bmeansb.com %6$s %7$s %8$s "
+"Subject: %9$s %10$s Google Tools %11$s %12$s"
+
+#: footer.php:7
+msgid "Navegación"
+msgstr "Navigation"
+
+#: footer.php:23
+msgid "\"BmeansB: Informa, Ofrece y Entretiene.\""
+msgstr "\"BmeansB: Informs, Offers and Entertains.\""
+
+#: footer.php:26
+msgid "politica-privacidad"
+msgstr "privacy-policy"
+
+#: footer.php:26
+msgid "aviso legal"
+msgstr "legal info"
+
+#: format.php:54
+msgid "Pages:"
+msgstr ""
+
+#: format.php:64 search.php:43
+msgid "filed under"
+msgstr ""
+
+#: format.php:66 post-formats/format.php:40
+msgid "Tags:"
+msgstr ""
+
+#: functions.php:46
+msgid "Leer más"
+msgstr "Read more"
+
+#: functions.php:92
+msgid "Search Sidebar"
+msgstr ""
+
+#: functions.php:105
+msgid "Recent Sidebar"
+msgstr ""
+
+#: functions.php:110 single.php:55
+msgid "Entradas Recientes"
+msgstr "Recent Posts"
+
+#: functions.php:111 single.php:56
+msgid "Aproveche para ver qué más está pasando:"
+msgstr "Take a moment to see what else is happening:"
+
+#: functions.php:127
+msgid "Busca un artículo por nombre:"
+msgstr "Search for an article by name:"
+
+#: functions.php:129
+msgid "Buscar"
+msgstr "Search"
+
+#: policy.php:74 single.php:46
+msgid "This is the error message in the single.php template."
+msgstr ""
+
+#: portfolio.php:25 portfolio.php:70
+msgid "SOBRE MÍ"
+msgstr "ABOUT ME"
+
+#: portfolio.php:26 portfolio.php:270 portfolio.php:277
+msgid "LUGARES"
+msgstr "PLACES"
+
+#: portfolio.php:27 portfolio.php:434 portfolio.php:441
+msgid "EJEMPLOS"
+msgstr "EXAMPLES"
+
+#: portfolio.php:28 portfolio.php:555 portfolio.php:562
+msgid "METAS"
+msgstr "GOALS"
+
+#: portfolio.php:29 portfolio.php:647 portfolio.php:654
+msgid "CURRÍCULO"
+msgstr "CV"
+
+#: portfolio.php:46
+msgid ""
+"\"Forjando mi camino en las nuevas tecnologías y el desarrollo web adaptativo"
+"\""
+msgstr ""
+"\"Forging my way in the fields of New Technologies and Responsive Web "
+"Development\""
+
+#: portfolio.php:51
+msgid "Mándame un correo:"
+msgstr "Send me an email:"
+
+#: portfolio.php:77
+msgid "Permitame apenas presentarme:"
+msgstr "Allow me to barely introduce myself:"
+
+#: portfolio.php:95
+msgid "¿De dónde soy?"
+msgstr "Where am I from?"
+
+#: portfolio.php:96
+msgid ""
+"Me crie en una ciudad que se llama Bath en el Reino Unido, su ubicación se "
+"puede observar en el mapa a la derecha (arriba en el caso de estar "
+"utilizando un dispositivo móvil). Es una ciudad famosa por sus balnearios "
+"romanos, architectura espectacular y su belleza natural."
+msgstr ""
+"I was born and raised in Bath, a city in the UK, the exact location of which "
+"you can see on the map to the right (above if you are using a mobile "
+"device). The city is famous for it's Roman Baths, spectacular architecture "
+"and natural beauty."
+
+#: portfolio.php:98
+msgid "¿Y ahora?"
+msgstr "Currently?"
+
+#: portfolio.php:100
+#, php-format
+msgid ""
+"Tras licenciarme en %1$s International Business y Marketing%2$s me trasladé "
+"a la isla de Tenerife, dónde paso a paso, voy abriendo camino dentro de los "
+"campos de %3$s E-commerce, Diseño Gráfico y Responsive Web Development%4$s"
+msgstr ""
+"After graduating in %1$s International Business%2$s I moved to the island of "
+"Tenerife, where I am pursuing a future in the fields of %3$s E-commerce and "
+"Responsive Web Development%4$s"
+
+#: portfolio.php:102
+msgid "Más datos sobre mí"
+msgstr "More details about me"
+
+#: portfolio.php:104
+#, php-format
+msgid ""
+"Soy %1$s bilingüe %2$s en inglés/español y me apasionan las nuevas "
+"tecnologías, particularmente la parte que la creatividad desempeña en su "
+"desarrollo. Aunque actualmente, como cofundador, me encuentro desarrollando "
+"un proyecto llamado %3$s FastTyping Online%4$s, en el que hemos "
+"revolucionado la mecanografía a través de tecnologías web, con el objetivo "
+"de acercarla a todos los públicos, me sigo promoviendo como %5$s Web "
+"Developer Full-Stack y Diseñador Gráfico%6$s, mientras me formo en la "
+"creación de %7$sMobile Apps%8$s. Algunos ejemplos de los proyectos en los "
+"que he trabajado se exponen más adelante en este portafolio. Por lo general, "
+"me encantan las sutilezas del %9$s diseño moderno %10$s además de la "
+"libertad que este proporciona para un diseñador %11$s sin miedo a la "
+"creatividad%12$s. Personalmente, procuro siempre dejar una pincelada de mi "
+"identidad en los trabajos que realizo, aplicando mis conocimientos de %13$s "
+"diseño gráfico o el desarrollo audiovisual %14$s donde haga falta. En mi "
+"opinión %15$s la innovación es la clave del éxito %16$s pues ya no es "
+"suficiente simplemente “agarrarse al saber hacer” y es algo por lo que me "
+"esfuerzo al diario."
+msgstr ""
+"I am %1$s bilingual %2$s in Spanish and passionate about new technologies, "
+"especially the part that creativity plays in technological development. "
+"Although I am currently working as a cofounder on a project named "
+"%3$sFastTyping Online%4$s, in which we have revolutionised Touch-Typing via "
+"web technologies, making it more accessible to all audiences, I also "
+"continue to promote myself as a %5$sFull-Stack Web Developer and Graphic "
+"Designer%6$s, whilst I study %7$sMobile App Development%8$s. Examples of "
+"projects I have worked on will be on display later in this portfolio. "
+"Generally speaking, I have enormous appreciation for the subtleties of %9$s "
+"modern design%10$s and the freedom it provides for %11$s creatively fearless "
+"designers%12$s. Personally, I always try to leave a touch of my own identity "
+"in the work I produce, also applying my knowledge of %13$s graphic design or "
+"audio-visual development%14$s wherever possible. In my opinion, %15$s "
+"innovation is the key to success%16$s as it is no longer enough to simply "
+"“stick to what you are good at” and this is something I strive for on a "
+"daily basis."
+
+#: portfolio.php:112
+msgid "Si me tuviera que describir en sólo tres palabras..."
+msgstr "If I had to sum myself up in three words..."
+
+#: portfolio.php:115
+msgid "Para mis amigos:"
+msgstr "To my friends:"
+
+#: portfolio.php:117
+#, php-format
+msgid ""
+"%1$s Fiable, %2$s %3$s Divertido %4$s y a veces %5$s refrescantemente "
+"espontáneo. %6$s"
+msgstr ""
+"%1$s Trustworthy, %2$s %3$s Fun %4$s and at times %5$s refreshingly "
+"spontaneous. %6$s"
+
+#: portfolio.php:121
+msgid "Para mis compañeros:"
+msgstr "To my colleagues:"
+
+#: portfolio.php:123
+#, php-format
+msgid ""
+"%1$s Adaptable, %2$s %3$s Comprometido %4$s y dispuesto a probar cosas %5$s "
+"nuevas. %6$s"
+msgstr ""
+"%1$s Adaptable, %2$s %3$s Committed %4$s and willing to give %5$s new things "
+"%6$s a try."
+
+#: portfolio.php:128
+msgid "El saber hacer técnico..."
+msgstr "Technical know how..."
+
+#: portfolio.php:135
+msgid "Mi caja de instrumentos Web:"
+msgstr "Web toolbox:"
+
+#: portfolio.php:198
+msgid "Mi caja de instrumentos diseño gráfico:"
+msgstr "Illustration toolbox:"
+
+#: portfolio.php:241
+msgid "Otras habilidades..."
+msgstr "Other skills..."
+
+#: portfolio.php:247
+msgid "También sé hacer:"
+msgstr "What else I can do:"
+
+#: portfolio.php:250
+#, php-format
+msgid "%1$s SEO %2$s Conocimiento de SEO y Google Analytics."
+msgstr "%1$s SEO %2$s Knowledge of SEO and Google Analytics."
+
+#: portfolio.php:253
+#, php-format
+msgid "%1$s Enseñar %2$s 5+ años enseñando informática e inglés."
+msgstr "%1$s Teach %2$s 5+ years of IT and English teaching."
+
+#: portfolio.php:256
+#, php-format
+msgid "%1$s Idiomas %2$s Bilingüe en inglés/español."
+msgstr "%1$s Languages %2$s I am a bilingual Spanish/English speaker."
+
+#: portfolio.php:259
+#, php-format
+msgid "%1$s Innovar %2$s Dinamizador de la innovación."
+msgstr "%1$s Innovate %2$s I have experience as an Innovation Consultant."
+
+#: portfolio.php:284
+msgid ""
+"Las siguientes compañías e instituciones han sido claves en mi desarrollo "
+"profesional hasta la fecha:"
+msgstr ""
+"The following companies and institutions have formed the stepping stones for "
+"my professional development to date:"
+
+#: portfolio.php:288
+msgid "Empleo..."
+msgstr "Employment..."
+
+#: portfolio.php:289
+msgid "Para quién he trabajado:"
+msgstr "Who i have worked for:"
+
+#: portfolio.php:297
+msgid "Online Marketing Junior"
+msgstr "Online Marketing Placement"
+
+#: portfolio.php:303
+msgid "Profesor bilingüe y desarrollador de contenidos mediáticos"
+msgstr "Bilingual Teacher and Media Content Developer/Administrator"
+
+#: portfolio.php:309
+msgid "Ingeniero de datos para HICSE, Hitachi"
+msgstr "Data Engineer for HICSE, Hitachi"
+
+#: portfolio.php:314
+msgid "Desarrollador y Webmaster, Academia MAI"
+msgstr "Developer and Webmaster, Academia MAI"
+
+#: portfolio.php:322
+msgid "Estudios..."
+msgstr "Studies..."
+
+#: portfolio.php:323
+msgid "Dónde he estudiado:"
+msgstr "Where i have studied:"
+
+#: portfolio.php:329 portfolio.php:333
+msgid "BA International Business"
+msgstr "BA International Business"
+
+#: portfolio.php:337
+msgid "Dinamizadores De La Innovación"
+msgstr "Dinamizadores De La Innovación"
+
+#: portfolio.php:341
+msgid "Responsive Website Development"
+msgstr "Responsive Website Development"
+
+#: portfolio.php:349
+msgid "Actualmente..."
+msgstr "Currently..."
+
+#: portfolio.php:350
+msgid "En lo que estoy trabajando ahora:"
+msgstr "What i am working on now:"
+
+#: portfolio.php:358
+msgid ""
+"Un nuevo proyecto junto con <a class=\"link\" href=\"http://academia-mai.com"
+"\" target=\"_blank\">Academia MAI</a> y <a class=\"link\" href=\"http://"
+"academia-mae.es\" target=\"_blank\">Academia MAE</a>. La primera fase se "
+"basa en el desarrollo de una aplicación web para sus cursos de mecanografía "
+"presenciales, <a class=\"link\" href=\"http://fasttyping.net\" target="
+"\"_blank\">FastTyping.net</a>. La segunda, tiene como objetivo la "
+"automatización y adaptación de dicha plataforma para poder ofrecer el curso "
+"al público general, <a class=\"link\" href=\"http://fasttyping.com\" target="
+"\"_blank\">FastTyping.com</a>. El proyecto conlleva el desarrollo constante "
+"de las páginas web corporativas de las academias, la creación continuada de "
+"material promocional y publicitario y el mantenimiento diario de las "
+"aplicaciones."
+msgstr ""
+"A new project together with <a class=\"link\" href=\"http://academia-mai.com"
+"\" target=\"_blank\">Academia MAI</a> and <a class=\"link\" href=\"http://"
+"academia-mae.es\" target=\"_blank\">Academia MAE</a>. The first phase is "
+"based on the development of a touch typing web application for their "
+"classroom based courses, <a class=\"link\" href=\"http://fasttyping.net\" "
+"target=\"_blank\">FastTyping.net</a>. The second, is focused on the "
+"automization and adaption of the platform in order to be able to provide the "
+"course to the general public, <a class=\"link\" href=\"http://fasttyping.com"
+"\" target=\"_blank\">FastTyping.com</a>. Alongside the project, I am "
+"constantly working on the development of the accompanying corporate "
+"websites, the creation of promotional material and the daily maintenance of "
+"the applications."
+
+#: portfolio.php:373
+msgid ""
+"Al ser mi primer proyecto realizado en PHP/MySQL, aproveché la oportunidad "
+"para construir la plataforma en PHP 7 puro. Ahora me siento cómodo "
+"trabajando con este lenguaje y con ganas de utilizar un PHP Framework."
+msgstr ""
+"As my first project written in PHP/MySQL, I took full advantage to construct "
+"the platform in vanilla PHP 7. I now feel comfortable working in this "
+"language and hope to gain experience in PHP Frameworks soon."
+
+#: portfolio.php:381
+msgid ""
+"Este proyecto ha sido clave para seguir fortaleciendo mis conocimientos, de "
+"los cuales se destacan el uso avanzado de Flexbox (CSS), JQuery y APIs, "
+"además del diseño gráfico y la creación de multimedia."
+msgstr ""
+"This project has been fundamental in strengthening my knowledge. In "
+"particular, I would like to highlight the advanced use of Flexbox (CSS), "
+"JQuery and API's, along with the accompanying graphic and multimedia design."
+
+#: portfolio.php:395
+msgid "Pantallas:"
+msgstr "Screens:"
+
+#: portfolio.php:397
+msgid "FastTyping Bienvenido"
+msgstr "FastTyping Welcome"
+
+#: portfolio.php:398
+msgid "FastTyping Automatización"
+msgstr "FastTyping Automization"
+
+#: portfolio.php:399
+msgid "FastTyping Config Ejercicios"
+msgstr "FastTyping Exercise Config"
+
+#: portfolio.php:400
+msgid "FastTyping Ejercicio"
+msgstr "FastTyping Exercise"
+
+#: portfolio.php:401
+msgid "FastTyping Diploma"
+msgstr "FastTyping Certification"
+
+#: portfolio.php:450
+msgid ""
+"Lo siguiente son ejemplos de mi trabajo. Los programas utilizados están "
+"indicados en cada sección:"
+msgstr ""
+"The following are examples of my work. The programs utilized are indicated "
+"above each section:"
+
+#: portfolio.php:488
+msgid "imagenes-web"
+msgstr "web-images"
+
+#: portfolio.php:510
+msgid "imagenes-diseño"
+msgstr "design-images"
+
+#: portfolio.php:534 portfolio.php:732
+msgid "Composición 2012"
+msgstr "Composition 2012"
+
+#: portfolio.php:540 portfolio.php:754
+msgid "Composición 2013"
+msgstr "Composition 2013"
+
+#: portfolio.php:569
+msgid ""
+"Lo que muestro a continuación representa mis objetivos a medio plazo en tres "
+"niveles muy importantes: Profesional, Personal y Familia y amigos:"
+msgstr ""
+"The following represent my mid-term objectives on three  very important "
+"levels: Professional, Personal and Friends and Family:"
+
+#: portfolio.php:578
+msgid "Profesional..."
+msgstr "Professional..."
+
+#: portfolio.php:582
+msgid "Emp"
+msgstr "Work"
+
+#: portfolio.php:585
+msgid "Por un lado:"
+msgstr "On one hand:"
+
+#: portfolio.php:588
+msgid ""
+"Mi primer objetivo es de formar una parte importante de un equipo "
+"profesional, dedicado al sector de servicios online y/o desarrollo de "
+"contenidos digitales."
+msgstr ""
+"My first objective is to form an important part of a professional team, "
+"dedicated to Online Services and/or Digital Content Development."
+
+#: portfolio.php:591
+msgid "Por otro:"
+msgstr "On the other:"
+
+#: portfolio.php:594
+msgid ""
+"Alternativamente, me gustaría verme embarcar en un proyecto independiente "
+"dentro de la industria."
+msgstr ""
+"Failing this, I would like to see myself embark on a solo project within the "
+"industry."
+
+#: portfolio.php:604
+msgid "Personal..."
+msgstr "Personal..."
+
+#: portfolio.php:608
+msgid "Ocio"
+msgstr "Leisure"
+
+#: portfolio.php:611
+msgid "La emoción de nuevas experiencias:"
+msgstr "The thrill of new experiences:"
+
+#: portfolio.php:614
+#, php-format
+msgid ""
+"La estabilidad personal y profesional me permitirá comodidad a la hora de "
+"invertir en lo que más me motiva: deportes de aventura, vida sana y lo más "
+"importante; %1$s viajar %2$s y conocer lugares increíbles en excelente "
+"compañía."
+msgstr ""
+"Assuring personal economic stability will allow me to comfortably invest in "
+"what excites me the most...adventure sports, healthy living and most "
+"importantly %1$s travelling; %2$s visiting breathtaking locations in "
+"excellent company."
+
+#: portfolio.php:624
+msgid "Familia y amigos..."
+msgstr "Friends and Family..."
+
+#: portfolio.php:628
+msgid "Familia"
+msgstr "Home"
+
+#: portfolio.php:631
+msgid "Buscar el equilibrio:"
+msgstr "Strike a balance:"
+
+#: portfolio.php:634
+#, php-format
+msgid ""
+"En mi caso, mis seres queridos se encuentran repartidos por todo el mundo. "
+"En muchas ocasiones, estar presente para ellos se ha visto complicado al no "
+"disponer de las ventajas que te puede aportar una profesión estable. Con "
+"esto en mente, mi objetivo inmediato es de lograr dicha estabilidad "
+"profesional y asegurar un %1$s equilibrio %2$s necesario entre mis "
+"responsabilidades profesionales y personales."
+msgstr ""
+"Friends and family are, in my case, what you could describe as disperse. "
+"Each and every member is extremely valuable to me and up until now, I have "
+"often found that life is a trade-off between the quest for personal/"
+"professional fulfilment, and possessing the means by which to be present for "
+"loved ones when necessary. With this in mind, my immediate goal is to ensure "
+"professional stability, and strike a much needed %1$s balance %2$s between "
+"professional and personal responsibilities."
+
+#: portfolio.php:661
+msgid "Pinche en las imágenes para descargar mi currículo en inglés o español:"
+msgstr ""
+"Please feel free to download a copy of my CV below, in either English or "
+"Spanish:"
+
+#: portfolio.php:684
+msgid "Vuelve arriba"
+msgstr "Go to top"
+
+#: portfolio.php:739
+msgid "Composición Orla 2012"
+msgstr "Graduation Composition 2012"
+
+#: portfolio.php:760
+msgid "Composición Orla 2013"
+msgstr "Graduation Composition 2013"
+
+#: search.php:14
+msgid "Search Results for:"
+msgstr ""
+
+#: search.php:36
+msgid "Read more &raquo;"
+msgstr ""
+
+#: search.php:46
+msgid "Tags"
+msgstr ""
+
+#: search.php:62
+msgid "No hay resultados"
+msgstr "No results"
+
+#: search.php:63
+msgid "Error de búsqueda"
+msgstr "Search error"
+
+#: search.php:66
+msgid "Vuelve a intentar"
+msgstr "Try again"
+
+#~ msgid ""
+#~ "Para obtener información más detallada sobre mí, por favor diríjase al "
+#~ "enlace <strong>Portafolio</strong> que se encuentra en la barra superior."
+#~ "</br></br>Los diseños que se ven expuestos en esta sección corresponden a "
+#~ "proyectos publicados, proyectos terminados sin publicar y luego otros que "
+#~ "son conceptos de diseño disponibles para nuevos clientes. Soy un "
+#~ "desarrollador <strong>full-stack</strong> lo cuál significa que trabajo "
+#~ "con multiples plataformas para entregar un servicio completo desde el "
+#~ "servidor hasta la portada principal del sitio web.</br></br>Todos mis "
+#~ "diseños están <strong>adaptados a móviles y tablets</strong>, listos para "
+#~ "<strong>integrar con redes sociales</strong> y <strong>optimizados para "
+#~ "motores de búsqueda (SEO)</strong>.</br></br>En el caso de interesarle "
+#~ "algún diseño o concepto, por favor contacte conmigo al siguiente correo "
+#~ "electrónico: <strong><a href=\"mailto:admin@bmeansb.com\">admin@bmeansb."
+#~ "com</a></strong>"
+#~ msgstr ""
+#~ "If you require more detailed information about me, please follow the link "
+#~ "to my <strong>Portfolio</strong>, which can be found in the bar above.</"
+#~ "br></br>The designs displayed in this section correspond to projects that "
+#~ "are published, awaiting publication and also a project concept currently "
+#~ "available for new customers. I am a <strong>full-stack</strong> "
+#~ "developer, which means that i work with multiple platforms to deliver a "
+#~ "complete service running from server side development to front end "
+#~ "presentation. </br></br>All of my designs are <strong>responsive</strong> "
+#~ "having been <strong>adapted to mobile devices and tablets</strong>, are "
+#~ "ready for <strong>social network integration</strong> and are fully "
+#~ "<strong>optimized for search engines (SEO)</strong>.</br></br>If you are "
+#~ "interested in any of the following designs, please contact me via: "
+#~ "<strong><a href=\"mailto:admin@bmeansb.com\">admin@bmeansb.com</a></"
+#~ "strong>"
+
+#~ msgid ""
+#~ "Para obtener información más detallada sobre mí, por favor diríjase a la "
+#~ "sección de <strong>Portafolio</strong> en la barra superior.</br></br>Los "
+#~ "diseños que se ven expuestos en esta sección corresponden a proyectos "
+#~ "publicados, proyectos terminados sin publicar y luego otros que son "
+#~ "conceptos de diseño disponibles para nuevos clientes. Soy un "
+#~ "desarrollador <strong>full-stack</strong> lo cuál significa que trabajo "
+#~ "con multiples plataformas para entregar un servicio completo desde el "
+#~ "servidor hasta la portada principal del sitio web.</br></br>Todos mis "
+#~ "diseños están <strong>adaptados a móviles y tablets</strong>, listos para "
+#~ "<strong>integrar con redes sociales</strong> y <strong>optimizados para "
+#~ "motores de búsqueda (SEO)</strong>.</br></br>En el caso de interesarle "
+#~ "algún diseño o concepto, por favor contacte conmigo al siguiente correo "
+#~ "electrónico: <strong><a href=\"mailto:admin@bmeansb.com\">admin@bmeansb."
+#~ "com</a></strong>"
+#~ msgstr ""
+#~ "If you require more detailed information about me, please follow the link "
+#~ "to my <strong>Portfolio</strong>, which can be found in the bar above.</"
+#~ "br></br>The designs displayed in this section correspond to projects that "
+#~ "are published, awaiting publication and also a project concept currently "
+#~ "available for new customers. I am a <strong>full-stack</strong> "
+#~ "developer, which means that i work with multiple platforms to deliver a "
+#~ "complete service running from server side development to front end "
+#~ "presentation. </br></br>All of my designs are <strong>responsive</strong> "
+#~ "having been <strong>adapted to mobile devices and tablets</strong>, are "
+#~ "ready for <strong>social network integration</strong> and are fully "
+#~ "<strong>optimized for search engines (SEO)</strong>.</br></br>If you are "
+#~ "interested in any of the following designs, please contact me via: "
+#~ "<strong><a href=\"mailto:admin@bmeansb.com\">admin@bmeansb.com</a></"
+#~ "strong>"
+
+#~ msgid ""
+#~ "Los diseños que se ven expuestos en esta sección corresponden a proyectos "
+#~ "publicados, proyectos terminados sin publicar y luego otros que son "
+#~ "conceptos de diseño disponibles para nuevos clientes. Soy un "
+#~ "desarrollador <strong>full-stack</strong> lo cuál significa que trabajo "
+#~ "con multiples plataformas para entregar un servicio completo desde el "
+#~ "servidor hasta la portada principal del sitio web.</br></br>Todos mis "
+#~ "diseños están <strong>adaptados a móviles y tablets</strong>, listos para "
+#~ "<strong>integrar con redes sociales</strong> y <strong>optimizados para "
+#~ "motores de búsqueda (SEO)</strong>.</br></br>En el caso de interesarle "
+#~ "algún diseño o concepto, por favor contacte conmigo al siguiente correo "
+#~ "electrónico: <strong><a href=\"mailto:admin@bmeansb.com\">admin@bmeansb."
+#~ "com</a></strong>"
+#~ msgstr ""
+#~ "The designs displayed in this section correspond to projects that are "
+#~ "published, awaiting publication and also a project concept currently "
+#~ "available for new customers. I am a <strong>full-stack</strong> "
+#~ "developer, which means that i work with multiple platforms to deliver a "
+#~ "complete service running from server side development to front end "
+#~ "presentation. </br></br>All of my designs are <strong>responsive</strong> "
+#~ "having been <strong>adapted to mobile devices and tablets</strong>, are "
+#~ "ready for <strong>social network integration</strong> and are fully "
+#~ "<strong>optimized for search engines (SEO)</strong>.</br></br>If you are "
+#~ "interested in any of the following designs, please contact me via: "
+#~ "<strong><a href=\"mailto:admin@bmeansb.com\">admin@bmeansb.com</a></"
+#~ "strong>"
+
+#~ msgid ""
+#~ "Un nuevo proyecto junto con La Academia MAI. La primera fase se basa en "
+#~ "la creación de una nueva plataforma web para sus cursos de mecanografía "
+#~ "presenciales. La segunda, tiene como objetivo la automatización y "
+#~ "adaptación de dicha plataforma para su uso internacional online. El "
+#~ "proyecto conlleva el desarrollo constante de la página web corporativa, "
+#~ "la creación continuada de material promocional y publicitario, además de "
+#~ "abrir nuevos canales en las redes sociales para apoyar la nueva campaña "
+#~ "de marketing."
+#~ msgstr ""
+#~ "A new project together with Academia MAI. The first phase is based on the "
+#~ "creation of a new touch typing platform for their classroom bases "
+#~ "courses. The second, is focused on the automization and adaption of the "
+#~ "platform, for an international, online market. Alongside the project, I "
+#~ "am constantly working on the development of the accompanying corporate "
+#~ "website, the creation of promotional material and the opening of new "
+#~ "social network channels as part of the online marketing campaign."
+
+#~ msgid "Curso:"
+#~ msgstr "Course:"
+
+#~ msgid "FastTyping Inicio Niños"
+#~ msgstr "FastTyping Home Kids"
+
+#~ msgid "FastTyping Inicio Juegos"
+#~ msgstr "FastTyping Home Games"
+
+#~ msgid "Navigación"
+#~ msgstr "Navigation"
+
+#~ msgid ""
+#~ "Soy %1$s bilingüe %2$s en inglés/español y me apasionan las nuevas "
+#~ "tecnologías, particularmente la parte que la creatividad desempeña en su "
+#~ "desarrollo. Aunque actualmente, como cofundador, me encuentro "
+#~ "desarrollando un proyecto llamado %3$s FastTyping Online%4$s, en el que "
+#~ "hemos revolucionado la mecanografía a través de tecnologías web, con el "
+#~ "objetivo de acercarla a todos los públicos, me sigo promoviendo como %5$s "
+#~ "Web Developer Full-stack y Diseñador Gráfico%6$s, mientras me formo en la "
+#~ "creación de %7$sMobile Apps%8$s. Algunos ejemplos de los proyectos en los "
+#~ "que he trabajado se exponen más adelante en este portafolio. Por lo "
+#~ "general, me encantan las sutilezas del %9$s diseño moderno %10$s además "
+#~ "de la libertad que este proporciona para un diseñador %11$s sin miedo a "
+#~ "la creatividad%12$s. Personalmente, procuro siempre dejar una pincelada "
+#~ "de mi identidad en los trabajos que realizo, aplicando mis conocimientos "
+#~ "de %13$s diseño gráfico o el desarrollo audiovisual %14$s donde haga "
+#~ "falta. En mi opinión %15$s la innovación es la clave del éxito %16$s pues "
+#~ "ya no es suficiente simplemente “agarrarse al saber hacer” y es algo por "
+#~ "lo que me esfuerzo al diario."
+#~ msgstr ""
+#~ "I am %1$s bilingual %2$s in Spanish and passionate about new "
+#~ "technologies, especially the part that creativity plays in technological "
+#~ "development. Although I am currently working as a cofounder on a project "
+#~ "named %3$sFastTyping Online%4$s, in which we have revolutionised Touch-"
+#~ "Typing via web technologies, making it more accessible to all audiences, "
+#~ "I also continue to promote myself as a %5$sFull-Stack Web Developer and "
+#~ "Graphic Designer%6$s, whilst I study %7$sMobile App Development%8$s. "
+#~ "Examples of projects I have worked on will be on display later in this "
+#~ "portfolio. Generally speaking, I have enormous appreciation for the "
+#~ "subtleties of %9$s modern design%10$s and the freedom it provides for "
+#~ "%11$s creatively fearless designers%12$s. Personally, I always try to "
+#~ "leave a touch of my own identity in the work I produce, also applying my "
+#~ "knowledge of %13$s graphic design or audio-visual development%14$s "
+#~ "wherever possible. In my opinion, %15$s innovation is the key to success"
+#~ "%16$s as it is no longer enough to simply “stick to what you are good at” "
+#~ "and this is something I strive for on a daily basis."
+
+#~ msgid ""
+#~ "Soy %1$s bilingüe %2$s en inglés/español y me apasionan las nuevas "
+#~ "tecnologías, particularmente la parte que la creatividad desempeña en su "
+#~ "desarrollo. Aunque actualmente, como cofundador, me encuentro "
+#~ "desarrollando un proyecto llamado %3$s FastTyping Online%4$s, en el que "
+#~ "hemos revolucionado la mecanografía a través de tecnologías web, con el "
+#~ "objetivo de acercarla a todos los públicos, me sigo promoviendo como %5$s "
+#~ "Web Developer Full-stack y Diseñador Gráfico%6$s, mientras me formo en la "
+#~ "creación de %7$sMobile Apps%8$s. Algunos ejemplos de los proyectos en los "
+#~ "que he trabajado se exponen más adelante en este portafolio. Por lo "
+#~ "general, me encantan las sutilezas del %9$s diseño moderno %10$s además "
+#~ "de la libertad que este proporciona para un diseñador %11$s sin miedo a "
+#~ "la creatividad %12$s Personalmente, procuro siempre dejar una pincelada "
+#~ "de mi identidad en los trabajos que realizo, aplicando mis conocimientos "
+#~ "de %13$s diseño gráfico o el desarrollo audiovisual %14$s donde haga "
+#~ "falta. En mi opinión %15$s la innovación es la clave del éxito %16$s pues "
+#~ "ya no es suficiente simplemente “agarrarse al saber hacer” y es algo por "
+#~ "lo que me esfuerzo al diario."
+#~ msgstr ""
+#~ "I am %1$s bilingual %2$s in Spanish and passionate about new "
+#~ "technologies, especially the part that creativity plays in technological "
+#~ "development. Although I am currently working as a cofounder on a project "
+#~ "named %3$sFastTyping Online%4$s, in which we have revolutionised Touch "
+#~ "Typing through web technologies, making it more accessible to all "
+#~ "audiences, I also continue to promote myself as a %5$sFull-Stack Web "
+#~ "Developer and Graphic Designer%6$s, whilst I study %7$sMobile App "
+#~ "Development%8$s. Examples of projects I have worked on will be on display "
+#~ "later in this portfolio. Generally speaking, I have enormous appreciation "
+#~ "for the subtleties of %9$s modern design%10$s and the freedom it provides "
+#~ "for %11$s creatively fearless designers%12$s Personally, I always try to "
+#~ "leave a touch of my own identity in the work I produce, also applying my "
+#~ "knowledge of %13$s graphic design or audio-visual development%14$s "
+#~ "wherever possible. In my opinion, %15$s innovation is the key to success"
+#~ "%16$s as it is no longer enough to simply “stick to what you are good at” "
+#~ "and this is something I strive for on a daily basis."
+
+#~ msgid ""
+#~ "Soy %1$s bilingüe %2$s en inglés/español y me apasionan las nuevas "
+#~ "tecnologías, particularmente la parte que la creatividad desempeña en su "
+#~ "desarrollo. Aunque actualmente me promuevo como %3$s front-end developer "
+#~ "freelance y diseñador gráfico%4$s quiero crecer y poco a poco embarcar en "
+#~ "proyectos de mayor escala. Algunos ejemplos de los proyectos en los que "
+#~ "he trabajado se exponen más adelante en este portafolio. Por lo general, "
+#~ "me encantan las sutilezas del %5$s diseño moderno%6$s además de la "
+#~ "libertad que este proporciona para un diseñador %7$s sin miedo a la "
+#~ "creatividad%8$s Personalmente, procuro siempre dejar una pincelada de mi "
+#~ "identidad en los trabajos que realizo, aplicando mis conocimientos de "
+#~ "%9$s diseño gráfico o el desarrollo audiovisual%10$s donde haga falta. En "
+#~ "mi opinión %11$s la innovación es la clave del éxito%12$s pues ya no es "
+#~ "suficiente simplemente “agarrarse al saber hacer” y es algo por lo que me "
+#~ "esfuerzo al diario."
+#~ msgstr ""
+#~ "I am %1$s bilingual %2$s in Spanish and passionate about new "
+#~ "technologies, especially the part that creativity plays in technological "
+#~ "development. Although I currently work as a %3$s Front-end Developer%4$s "
+#~ "I am eager to embark on projects of a greater scale. Examples of projects "
+#~ "I have worked on will be on display later in this portfolio. Generally "
+#~ "speaking, I have enormous appreciation for the subtleties of %5$s modern "
+#~ "design%6$s and the freedom it provides for %7$s creatively fearless "
+#~ "designers%8$s Personally, I always try to leave a touch of my own "
+#~ "identity in the work I produce, also applying my knowledge of %9$s "
+#~ "graphic design or audio-visual development%10$s wherever possible. In my "
+#~ "opinion, %11$s innovation is the key to success%12$s as it is no longer "
+#~ "enough to simply “stick to what you are good at” and this is something I "
+#~ "strive for on a daily basis."
+
+#~ msgid ""
+#~ "Un nuevo proyecto junto con La Academia MAI. La primera fase se basa en "
+#~ "la creación de una nueva plataforma web para sus cursos de mecanografía "
+#~ "presenciales. La segunda, con lanzamiento previsto para <strong>Marzo "
+#~ "2018</strong>, tiene como objetivo la automatización y adaptación de "
+#~ "dicha plataforma para su uso internacional online. El proyecto conlleva "
+#~ "el desarrollo constante de la página web corporativa, la creación "
+#~ "continuada de material promocional y publicitario, además de abrir nuevos "
+#~ "canales en las redes sociales para apoyar la nueva campaña de marketing."
+#~ msgstr ""
+#~ "A new project together with Academia MAI. The first phase is based on the "
+#~ "creation of a new touch typing platform for their classroom bases "
+#~ "courses. The second, expected in <strong>March 2018</strong>, is focused "
+#~ "on the automization and adaption of the platform, for an international, "
+#~ "online market. Alongside the project, I am constantly working on the "
+#~ "development of the accompanying corporate website and the opening of new "
+#~ "social network channels as part of the online marketing campaign."
+
+#~ msgid ""
+#~ "Un nuevo proyecto junto con La Academia MAI. La primera fase se basa en "
+#~ "la creación de una nueva plataforma web para sus cursos de mecanografía "
+#~ "presenciales. La segunda, con lanzamiento previsto para <strong>Marzo "
+#~ "2018</strong>, tiene como objetivo la automatización y adaptación de "
+#~ "dicha plataforma para su uso internacional online. El proyecto conlleva "
+#~ "el desarrollo constante de la página web corporativa, además de abrir "
+#~ "nuevos canales en las redes sociales para apoyar la nueva campaña de "
+#~ "marketing."
+#~ msgstr ""
+#~ "A new project together with Academia MAI. The first phase is based on the "
+#~ "creation of a new touch typing platform for their classroom bases "
+#~ "courses. The second, expected in <strong>March 2018</strong>, is focused "
+#~ "on the automization and adaption of the platform, for an international, "
+#~ "online market. Alongside the project, I am constantly working on the "
+#~ "development of the accompanying corporate website and the opening of new "
+#~ "social network channels as part of the online marketing campaign."
+
+#~ msgid "Screens:"
+#~ msgstr "Screen:"
+
+#~ msgid "FastTyping Welcome"
+#~ msgstr "FastTyping Bienvenido"
+
+#~ msgid "FastTyping Home Kids"
+#~ msgstr "FastTyping Inicio Niños"
+
+#~ msgid "FastTyping Home Games"
+#~ msgstr "FastTyping Inicio Juegos"
+
+#~ msgid "FastTyping Exercise Config"
+#~ msgstr "FastTyping Config Ejercicios"
+
+#~ msgid "FastTyping Exercise"
+#~ msgstr "FastTyping Ejercicio"
+
+#~ msgid ""
+#~ "Este proyecto ha sido clave para seguir fortaleciendo mis conocimientos, "
+#~ "de los cuales se destacan el uso avanzado de Flexbox (CSS), JQuery y "
+#~ "APIs, además de diseño gráfico y la creación de multimedia."
+#~ msgstr ""
+#~ "This project has been fundamental in strengthening my knowledge. In "
+#~ "particular, I would like to highlight the advanced use of Flexbox (CSS), "
+#~ "JQuery and API's, along with the accompanying graphic and multimedia "
+#~ "design."
+
+#~ msgid ""
+#~ "Este proyecto ha sido clave para seguir fortaleciendo mis conocimientos, "
+#~ "de los cuales se destacan el uso avanzado de Flexbox (CSS), JQuery y "
+#~ "APIs, además de diseño gráfico y de multimedia."
+#~ msgstr ""
+#~ "This project has been fundamental in strengthening my knowledge. In "
+#~ "particular, I would like to highlight the advanced use of Flexbox (CSS), "
+#~ "JQuery and API's, along with the accompanying graphic and multimedia "
+#~ "design."
+
+#~ msgid ""
+#~ "Este proyecto ha sido clave para seguir fortaleciendo mis conocimientos, "
+#~ "de los cuales se destacan el uso avanzado de Flexbox (CSS), JQuery y "
+#~ "APIs, además de permitir que pudiera seguir trabajando la creación de "
+#~ "contenido multimedia."
+#~ msgstr ""
+#~ "This project has been fundamental in strengthening my knowledge. In "
+#~ "particular, I would like to highlight the advanced use of Flexbox (CSS), "
+#~ "JQuery and API's, along with graphic and multimedia design."
+
+#~ msgid "Profesor y Desarrollador Web, Academia MAI"
+#~ msgstr "Teacher and Web Designer, Academia MAI"
+
+#~ msgid ""
+#~ "En el caso contrario, por favor envíeme un email utilizando la siguiente "
+#~ "información e indicando como le puedo ayudar: %1$s %2$s %3$s Dirección: "
+#~ "%4$s %5$s b.shewring@gmail.com %6$s %7$s %8$s Asunto: %9$s %10$s "
+#~ "Transición digital %11$s %12$s"
+#~ msgstr ""
+#~ "If not, please email me using the following information, outlining how I "
+#~ "can help you: %1$s %2$s %3$s Address: %4$s %5$s b.shewring@gmail.com %6$s "
+#~ "%7$s %8$s Subject: %9$s %10$s Digital Transition %11$s %12$s"

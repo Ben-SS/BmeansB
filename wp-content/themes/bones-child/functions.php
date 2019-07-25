@@ -1,0 +1,258 @@
+<?php
+
+function enqueue_styles() {
+
+    // bootstrap
+    //wp_enqueue_style( 'bootstrap-css', get_stylesheet_directory_uri() . '/css/bootstrap.min.css' );
+    //wp_enqueue_script( 'bootstrap-js', get_stylesheet_directory_uri() . '/js/bootstrap.min.js', array(), '3.0.0', true );
+    wp_register_style('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css');
+    wp_enqueue_style('bootstrap');
+
+    wp_register_script( 'bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js', array('jquery'), true, '3.4.1');
+    wp_enqueue_script( 'bootstrap-js');
+
+    // enqueue parent styles
+    wp_enqueue_style('parent-theme', get_template_directory_uri() .'/style.css');
+    
+    // enqueue child styles
+    wp_enqueue_style('child-theme', get_stylesheet_directory_uri() .'/style.css', array('parent-theme'));
+
+    wp_enqueue_script( 'custom', get_stylesheet_directory_uri() . '/js/custom.js', ( 'jquery' ), '1.0.0', true );
+
+    if(is_page(__('portafolio', 'bones-child'))){
+
+        // enqueue portfolio styles
+        wp_enqueue_style('portfolio-css', get_stylesheet_directory_uri() .'/css/portfolio.css' );
+        wp_enqueue_script( 'portfolio-js', get_stylesheet_directory_uri() . '/js/portfolio.js', array( 'jquery' ), '1.0.0', true );
+
+        $wnm_custom = array( 'stylesheet_directory_uri' => get_stylesheet_directory_uri() );
+        wp_localize_script( 'portfolio-js', 'directory_uri', $wnm_custom );
+    }
+
+}
+
+add_action('wp_enqueue_scripts','enqueue_styles');
+
+add_action( 'after_setup_theme', function () {
+    load_child_theme_textdomain( 'bones-child', get_stylesheet_directory() . '/languages' );
+} );
+
+function more_button($more_link) {
+    return
+        //'<button class="readmorebtn btn btn-primary" onclick="' .
+        //esc_attr('window.location=' . "'" . get_permalink() . "'" . ";" . '') .
+        //'">' . __('Leer más', 'bones-child') . '</button>';
+
+        '<button class="readmorebtn btn btn-md btn-primary" data-permalink="' . get_permalink() . '">' . '<p>' . __('Leer más', 'bones-child') . '</p>' . '</button>';
+}
+add_filter('the_content_more_link', 'more_button');
+
+function pagination_bar() {
+    global $wp_query;
+ 
+    $total_pages = $wp_query->max_num_pages;
+ 
+    if ($total_pages > 1){
+        $current_page = max(1, get_query_var('paged'));
+ 
+        echo paginate_links(array(
+            'base' => get_pagenum_link(1) . '%_%',
+            'format' => '/page/%#%',
+            'current' => $current_page,
+            'total' => $total_pages,
+        ));
+    }
+}
+
+add_theme_support('html5', array('search-form'));
+
+function my_logincustomCSSfile() {
+    wp_enqueue_style('login-styles', get_stylesheet_directory_uri() . '/css/login_styles.css');
+}
+add_action('login_enqueue_scripts', 'my_logincustomCSSfile');
+
+function my_loginredrect( $redirect_to, $request, $user ) {
+  if ( isset( $user->roles ) && is_array( $user->roles ) ) {
+    if( in_array('administrator', $user->roles)) {
+      return admin_url();
+    } else {
+      return site_url();
+    }
+  } else {
+      return site_url();
+  }
+}
+ 
+add_filter('login_redirect', 'my_loginredrect', 10, 3);
+
+
+function bones_child_widgets_init(){
+
+    register_sidebar( array(
+        'name'          => __( 'Search Sidebar', 'bones-child' ),
+        'id'            => 'search-sidebar',
+        'description'   => 'Sidebar to search for recent posts',
+        'class'         => '',
+        'before_widget' => '<div id="search-entries">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2 class="widgettitle">',
+        'after_title'   => '</h2>'
+
+
+    ));
+
+    register_sidebar( array(
+        'name'          => __( 'Recent Sidebar', 'bones-child' ),
+        'id'            => 'recent-sidebar',
+        'description'   => 'Sidebar for recent posts',
+        'class'         => '',
+        'before_widget' => '<div id="recent-entries">
+                                <h2>' . __('Entradas Recientes','bones-child') .'</h2>
+                                <p>' . __('Aproveche para ver qué más está pasando:','bones-child') . '</p>',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2 class="widgettitle">',
+        'after_title'   => '</h2>'
+
+
+    ));
+}
+
+
+add_action('widgets_init','bones_child_widgets_init');
+
+function my_search_form( $form ) {
+    $form =
+    '<form role="search" method="get" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >
+        <div class="form-group">
+            <label class="screen-reader-text" for="s"><p>' . __( 'Busca un artículo por nombre:','bones-child' ) . '</p></label>
+            <input type="text" class="form-control" value="' . get_search_query() . '" name="s" id="s" />
+            <button type="submit" class="btn btn-sm btn-info" id="searchsubmit"><p>'. __( 'Buscar', 'bones-child' ) .'</p></button>
+        </div>
+    </form>';
+
+    return $form;
+}
+
+add_filter( 'get_search_form', 'my_search_form', 100 );
+
+
+add_filter( 'post_gallery', 'my_post_gallery', 10, 2 );
+function my_post_gallery( $output, $attr) {
+    global $post, $wp_locale;
+
+    static $instance = 0;
+    $instance++;
+
+    // We're trusting author input, so let's at least make sure it looks like a valid orderby statement
+    if ( isset( $attr['orderby'] ) ) {
+        $attr['orderby'] = sanitize_sql_orderby( $attr['orderby'] );
+        if ( !$attr['orderby'] )
+            unset( $attr['orderby'] );
+    }
+
+    extract(shortcode_atts(array(
+        'order'      => 'ASC',
+        'orderby'    => 'menu_order ID',
+        'id'         => $post->ID,
+        'itemtag'    => 'dl',
+        'icontag'    => 'dt',
+        'captiontag' => 'dd',
+        'columns'    => 3,
+        'size'       => 'thumbnail',
+        'include'    => '',
+        'exclude'    => ''
+    ), $attr));
+
+    $id = intval($id);
+    if ( 'RAND' == $order )
+        $orderby = 'none';
+
+    if ( !empty($include) ) {
+        $include = preg_replace( '/[^0-9,]+/', '', $include );
+        $_attachments = get_posts( array('include' => $include, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
+
+        $attachments = array();
+        foreach ( $_attachments as $key => $val ) {
+            $attachments[$val->ID] = $_attachments[$key];
+        }
+    } elseif ( !empty($exclude) ) {
+        $exclude = preg_replace( '/[^0-9,]+/', '', $exclude );
+        $attachments = get_children( array('post_parent' => $id, 'exclude' => $exclude, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
+    } else {
+        $attachments = get_children( array('post_parent' => $id, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
+    }
+
+    if ( empty($attachments) )
+        return '';
+
+    if ( is_feed() ) {
+        $output = "\n";
+        foreach ( $attachments as $att_id => $attachment )
+            $output .= wp_get_attachment_link($att_id, $size, true) . "\n";
+        return $output;
+    }
+
+    $itemtag = tag_escape($itemtag);
+    $captiontag = tag_escape($captiontag);
+    $columns = intval($columns);
+    $itemwidth = $columns > 0 ? floor(100/$columns) : 100;
+    $float = is_rtl() ? 'right' : 'left';
+
+    $selector = "gallery-{$instance}";
+
+    $output = apply_filters('gallery_style', "
+        <style type='text/css'>
+            #{$selector} {
+                margin: auto;
+            }
+            #{$selector} .gallery-item {
+                float: {$float};
+                margin-top: 10px;
+                text-align: center;
+                width: {$itemwidth}%;           }
+            #{$selector} img {
+                border: 2px solid #cfcfcf;
+            }
+            #{$selector} .gallery-caption {
+                margin-left: 0;
+            }
+        </style>
+        <!-- see gallery_shortcode() in wp-includes/media.php -->
+        <div id='$selector' class='gallery galleryid-{$id}'>");
+
+    $i = 0;
+    foreach ( $attachments as $id => $attachment ) {
+        $link = isset($attr['link']) && 'file' == $attr['link'] ? wp_get_attachment_link($id, $size, false, false) : wp_get_attachment_link($id, $size, true, false);
+
+        $output .= "<{$itemtag} class='gallery-item'>";
+        if ( $captiontag && trim($attachment->post_excerpt) ) {
+            $output .= "
+                <{$captiontag} class='gallery-caption'>
+                " . wptexturize($attachment->post_excerpt) . "
+                </{$captiontag}>";
+        }
+        $output .= "
+            <{$icontag} class='gallery-icon'>
+                $link
+            </{$icontag}>";
+        
+        $output .= "</{$itemtag}>";
+        if ( $columns > 0 && ++$i % $columns == 0 )
+            $output .= '<br style="clear: both" />';
+    }
+
+    $output .= "
+            <br style='clear: both;' />
+        </div>\n";
+
+    return $output;
+}
+
+function wpsites_query( $query ) {
+if ( $query->is_archive() && $query->is_main_query() && !is_admin() ) {
+        $query->set( 'posts_per_page', -1);
+    }
+}
+add_action( 'pre_get_posts', 'wpsites_query' );
+
+?>

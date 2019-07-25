@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Myriad Regular;
+    src: url('../fonts/MYRIADPRO-REGULAR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: Myriad Regular;
+	overflow-x: hidden;
+    background-color: #333333;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    -moz-align-items: center;
+    -moz-justify-content: center;
+}
+
+.interim-login.login form {
+    margin: 0 auto;
+}
+
+#login {
+	width:100vw;
+	position: relative;
+	padding-top:5vh;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#loginform{
+    box-shadow: none;
+}
+
+.login form {
+	padding:20px;
+	text-align: left;
+	margin:20px auto auto auto;
+	max-width:20vw;
+	background:transparent;
+}
+
+.login h1 a {
+	background-image:url(../images/BmB.png);
+ 	height:125px;
+}
+
+.login #login_error, .login .message {
+	text-align: center;
+	max-width:500px;
+	border-left:none;
+    padding: 12px;
+    margin:auto;
+    padding:10px 15px 10px 15px;
+    background-color: #fff;
+    /*-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);*/
+    color:#333333;
+    border-radius: 5px;
+}
+
+.login label {
+    color: #fff;
+}
+
+#reg_passmail{
+	color:#fff;
+}
+
+#wp-submit{
+	background:#08bbfe;;
+    box-shadow: none;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    border-color: none;
+}
+
+#wp-submit:hover {
+	color: #fff;
+    background-color: #31b0d5;
+    border-color: #1b6d85;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+
+#wp-submit:focus{
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+#login > p:nth-child(2){
+	border-radius: 5px 5px 0 0;
+}
+
+#login > p:nth-child(3){
+	padding-top:0;
+	border-radius: 0 0 5px 5px;
+}
+
+#wp-auth-check-wrap #wp-auth-check {
+    position: fixed;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    top: 40px;
+    bottom: 20px;
+    max-height: 415px;
+    width: 50vw;
+    margin: 0 auto 0 auto;
+    padding: 30px 0 0;
+    background-color: #f1f1f1;
+    z-index: 1000011;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.3);
+    box-shadow: 0 3px 6px rgba(0,0,0,.3);
+}
